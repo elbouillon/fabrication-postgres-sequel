@@ -1,0 +1,10 @@
+development:
+  adapter: postgresql
+  database: sequel-rails-test-dev
+  user: mkurmann # Also accept 'username' as key, if both are present 'username' is used
+  password: password
+test:
+  adapter: postgresql
+  database: sequel-rails-test-test
+  user: mkurmann # Also accept 'username' as key, if both are present 'username' is used
+  password: password
