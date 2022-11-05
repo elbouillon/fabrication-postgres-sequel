@@ -10,6 +10,6 @@ RSpec.describe Work, type: :model do
   end
 
   it 'creating work that as tasks that have users does not work' do
-    expect(Fabricate(:work)).to be_valid
+    expect(Fabricate(:work).class).to be(Work)
   end
 end
